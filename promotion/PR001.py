@@ -5,7 +5,6 @@ from selenium import webdriver
 from pages import loginPage
 from properties import test_data
 from utils.click_utils import click_utils
-from utils.dom_hunter import save_html_to_file
 from utils.sendkey_utils import sendKey_utils
 
 
