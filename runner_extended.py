@@ -27,7 +27,7 @@ def run_behave_comprehensive(tag_name):
 
 if __name__ == "__main__":
     # Kaynaklardaki login metotlarınızı [2, 3] koşturmak için:
-    run_behave_comprehensive("@login")
+    run_behave_comprehensive("@promotion")
 
 
 # allure serve reports/allure_results
