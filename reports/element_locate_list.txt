@@ -1,0 +1,216 @@
+================================================================================
+ELEMENT LOCATE ANALİZ RAPORU
+Toplam Element Sayısı: 12
+================================================================================
+
+[1] BUTTON ELEMENTİ
+----------------------------------------
+Tag: button
+
+Önemli Attribute'lar:
+  id: navbarClose
+  class: ['btn-transparent']
+
+Locate'ler (Güçlüden Zayıfa):
+  🔴 GÜÇLÜ - id=navbarClose
+  🟠 ORTA - css=#navbarClose
+  🟠 ORTA - xpath=//button[@id='navbarClose']
+  🟡 ZAYIF - class=button.btn-transparent
+  🟡 ZAYIF - tag=button
+
+================================================================================
+
+[2] BUTTON ELEMENTİ
+----------------------------------------
+Tag: button
+Text: Menu
+
+Önemli Attribute'lar:
+  class: ['sidebar-toggler', 'btn-transparent', 'd-flex', 'flex-column-reverse', 'justify-content-center', 'align-items-center', 'p-5', 'rounded-sm', 'sidebarNavToggle']
+  type: button
+
+Locate'ler (Güçlüden Zayıfa):
+  🟠 ORTA - css=button.sidebar-toggler.btn-transparent.d-flex.flex-column-reverse.justify-content-center.align-items-center.p-5.rounded-sm.sidebarNavToggle
+  🟠 ORTA - xpath=//button[contains(@class, 'sidebar-toggler')][@type='button']
+  🟡 ZAYIF - class=button.sidebar-toggler.btn-transparent.d-flex.flex-column-reverse.justify-content-center.align-items-center.p-5.rounded-sm.sidebarNavToggle
+  🟡 ZAYIF - text=Menu
+  🟡 ZAYIF - tag=button
+
+================================================================================
+
+[3] BUTTON ELEMENTİ
+----------------------------------------
+Tag: button
+
+Önemli Attribute'lar:
+  id: navbarNotification
+  class: ['btn', 'btn-transparent', 'dropdown-toggle']
+  type: button
+
+Locate'ler (Güçlüden Zayıfa):
+  🔴 GÜÇLÜ - id=navbarNotification
+  🟠 ORTA - css=#navbarNotification
+  🟠 ORTA - xpath=//button[@id='navbarNotification']
+  🟡 ZAYIF - class=button.btn.btn-transparent.dropdown-toggle
+  🟡 ZAYIF - tag=button
+
+================================================================================
+
+[4] BUTTON ELEMENTİ
+----------------------------------------
+Tag: button
+
+Önemli Attribute'lar:
+  class: ['btn-transparent', 'panel-sidebar-close', 'sidebarNavToggle']
+
+Locate'ler (Güçlüden Zayıfa):
+  🟠 ORTA - css=button.btn-transparent.panel-sidebar-close.sidebarNavToggle
+  🟠 ORTA - xpath=//button[contains(@class, 'btn-transparent')]
+  🟡 ZAYIF - class=button.btn-transparent.panel-sidebar-close.sidebarNavToggle
+  🟡 ZAYIF - tag=button
+
+================================================================================
+
+[5] BUTTON ELEMENTİ
+----------------------------------------
+Tag: button
+Text: More info
+
+Önemli Attribute'lar:
+  class: ['js-noticeboard-info', 'btn', 'btn-sm', 'btn-border-white']
+  type: button
+
+Locate'ler (Güçlüden Zayıfa):
+  🟠 ORTA - css=button.js-noticeboard-info.btn.btn-sm.btn-border-white
+  🟠 ORTA - xpath=//button[contains(@class, 'js-noticeboard-info')][@type='button']
+  🟡 ZAYIF - class=button.js-noticeboard-info.btn.btn-sm.btn-border-white
+  🟡 ZAYIF - text=More info
+  🟡 ZAYIF - tag=button
+
+================================================================================
+
+[6] BUTTON ELEMENTİ
+----------------------------------------
+Tag: button
+Text: Save
+
+Önemli Attribute'lar:
+  class: ['js-save-offline-toggle', 'btn', 'btn-primary', 'btn-sm']
+  type: button
+
+Locate'ler (Güçlüden Zayıfa):
+  🟠 ORTA - css=button.js-save-offline-toggle.btn.btn-primary.btn-sm
+  🟠 ORTA - xpath=//button[contains(@class, 'js-save-offline-toggle')][@type='button']
+  🟡 ZAYIF - class=button.js-save-offline-toggle.btn.btn-primary.btn-sm
+  🟡 ZAYIF - text=Save
+  🟡 ZAYIF - tag=button
+
+================================================================================
+
+[7] BUTTON ELEMENTİ
+----------------------------------------
+Tag: button
+
+Önemli Attribute'lar:
+  id: navbarShopingCart
+  class: ['btn', 'btn-transparent', 'dropdown-toggle']
+  type: button
+
+Locate'ler (Güçlüden Zayıfa):
+  🔴 GÜÇLÜ - id=navbarShopingCart
+  🟠 ORTA - css=#navbarShopingCart
+  🟠 ORTA - xpath=//button[@id='navbarShopingCart']
+  🟡 ZAYIF - class=button.btn.btn-transparent.dropdown-toggle
+  🟡 ZAYIF - tag=button
+
+================================================================================
+
+[8] BUTTON ELEMENTİ
+----------------------------------------
+Tag: button
+Text: Close
+
+Önemli Attribute'lar:
+  class: ['btn', 'btn-danger', 'ml-10', 'close-swl', 'btn-sm']
+  type: button
+
+Locate'ler (Güçlüden Zayıfa):
+  🟠 ORTA - css=button.btn.btn-danger.ml-10.close-swl.btn-sm
+  🟠 ORTA - xpath=//button[contains(@class, 'btn')][@type='button']
+  🟡 ZAYIF - class=button.btn.btn-danger.ml-10.close-swl.btn-sm
+  🟡 ZAYIF - text=Close
+  🟡 ZAYIF - tag=button
+
+================================================================================
+
+[9] BUTTON ELEMENTİ
+----------------------------------------
+Tag: button
+Text: More info
+
+Önemli Attribute'lar:
+  class: ['js-noticeboard-info', 'btn', 'btn-sm', 'btn-border-white']
+  type: button
+
+Locate'ler (Güçlüden Zayıfa):
+  🟠 ORTA - css=button.js-noticeboard-info.btn.btn-sm.btn-border-white
+  🟠 ORTA - xpath=//button[contains(@class, 'js-noticeboard-info')][@type='button']
+  🟡 ZAYIF - class=button.js-noticeboard-info.btn.btn-sm.btn-border-white
+  🟡 ZAYIF - text=More info
+  🟡 ZAYIF - tag=button
+
+================================================================================
+
+[10] INPUT ELEMENTİ
+----------------------------------------
+Tag: textarea
+
+Önemli Attribute'lar:
+  name: message
+  class: ['form-control']
+
+Locate'ler (Güçlüden Zayıfa):
+  🔴 GÜÇLÜ - name=message
+  🟠 ORTA - css=textarea.form-control
+  🟠 ORTA - xpath=//textarea[contains(@class, 'form-control')][@name='message']
+  🟡 ZAYIF - class=textarea.form-control
+  🟡 ZAYIF - tag=textarea
+
+================================================================================
+
+[11] BUTTON ELEMENTİ
+----------------------------------------
+Tag: button
+
+Önemli Attribute'lar:
+  id: navbarToggle
+  class: ['navbar-toggler', 'navbar-order']
+  type: button
+
+Locate'ler (Güçlüden Zayıfa):
+  🔴 GÜÇLÜ - id=navbarToggle
+  🟠 ORTA - css=#navbarToggle
+  🟠 ORTA - xpath=//button[@id='navbarToggle']
+  🟡 ZAYIF - class=button.navbar-toggler.navbar-order
+  🟡 ZAYIF - tag=button
+
+================================================================================
+
+[12] BUTTON ELEMENTİ
+----------------------------------------
+Tag: button
+Text: More info
+
+Önemli Attribute'lar:
+  class: ['js-noticeboard-info', 'btn', 'btn-sm', 'btn-border-white']
+  type: button
+
+Locate'ler (Güçlüden Zayıfa):
+  🟠 ORTA - css=button.js-noticeboard-info.btn.btn-sm.btn-border-white
+  🟠 ORTA - xpath=//button[contains(@class, 'js-noticeboard-info')][@type='button']
+  🟡 ZAYIF - class=button.js-noticeboard-info.btn.btn-sm.btn-border-white
+  🟡 ZAYIF - text=More info
+  🟡 ZAYIF - tag=button
+
+================================================================================
+
