@@ -1,3 +1,4 @@
+# runner.py
 import subprocess
 import sys
 
@@ -21,4 +22,4 @@ def run_behave_tests(tag_name):
 
 if __name__ == "__main__":
     # İlk tag olarak yukarıdaki testte kullandığımız @smoke tag'ini veriyoruz
-    run_behave_tests("@dynamicRegister")
+    run_behave_tests("@login")
