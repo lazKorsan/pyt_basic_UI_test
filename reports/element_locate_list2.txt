@@ -1,0 +1,289 @@
+================================================================================
+ELEMENT LOCATE ANALİZ RAPORU
+Toplam Element Sayısı: 16
+================================================================================
+
+[1] INPUT ELEMENTİ
+----------------------------------------
+Tag: textarea
+
+Önemli Attribute'lar:
+  class: ['swal2-textarea']
+
+Locate'ler (Güçlüden Zayıfa):
+  🟠 ORTA - css=textarea.swal2-textarea
+  🟠 ORTA - xpath=//textarea[contains(@class, 'swal2-textarea')]
+  🟡 ZAYIF - class=textarea.swal2-textarea
+  🟡 ZAYIF - tag=textarea
+
+================================================================================
+
+[2] INPUT ELEMENTİ
+----------------------------------------
+Tag: input
+
+Önemli Attribute'lar:
+  class: ['swal2-input']
+
+Locate'ler (Güçlüden Zayıfa):
+  🟠 ORTA - css=input.swal2-input
+  🟠 ORTA - xpath=//input[contains(@class, 'swal2-input')]
+  🟡 ZAYIF - class=input.swal2-input
+  🟡 ZAYIF - tag=input
+
+================================================================================
+
+[3] BUTTON ELEMENTİ
+----------------------------------------
+Tag: button
+Text: ×
+
+Önemli Attribute'lar:
+  class: ['swal2-close']
+  type: button
+  aria-label: Close this dialog
+
+Locate'ler (Güçlüden Zayıfa):
+  🟠 ORTA - css=button.swal2-close
+  🟠 ORTA - xpath=//button[contains(@class, 'swal2-close')][@type='button']
+  🟡 ZAYIF - class=button.swal2-close
+  🟡 ZAYIF - text=×
+  🟡 ZAYIF - aria-label=Close this dialog
+  🟡 ZAYIF - tag=button
+
+================================================================================
+
+[4] BUTTON ELEMENTİ
+----------------------------------------
+Tag: button
+Text: 1
+
+Önemli Attribute'lar:
+  id: navbarNotification
+  class: ['btn', 'btn-transparent', 'dropdown-toggle']
+  type: button
+
+Locate'ler (Güçlüden Zayıfa):
+  🔴 GÜÇLÜ - id=navbarNotification
+  🟠 ORTA - css=#navbarNotification
+  🟠 ORTA - xpath=//button[@id='navbarNotification']
+  🟡 ZAYIF - class=button.btn.btn-transparent.dropdown-toggle
+  🟡 ZAYIF - text=1
+  🟡 ZAYIF - tag=button
+
+================================================================================
+
+[5] BUTTON ELEMENTİ
+----------------------------------------
+Tag: button
+Text: Cancel
+
+Önemli Attribute'lar:
+  class: ['swal2-cancel', 'swal2-styled']
+  type: button
+  aria-label: 
+
+Locate'ler (Güçlüden Zayıfa):
+  🟠 ORTA - css=button.swal2-cancel.swal2-styled
+  🟠 ORTA - xpath=//button[contains(@class, 'swal2-cancel')][@type='button']
+  🟡 ZAYIF - class=button.swal2-cancel.swal2-styled
+  🟡 ZAYIF - text=Cancel
+  🟡 ZAYIF - tag=button
+
+================================================================================
+
+[6] BUTTON ELEMENTİ
+----------------------------------------
+Tag: button
+
+Önemli Attribute'lar:
+  id: navbarToggle
+  class: ['navbar-toggler', 'navbar-order']
+  type: button
+
+Locate'ler (Güçlüden Zayıfa):
+  🔴 GÜÇLÜ - id=navbarToggle
+  🟠 ORTA - css=#navbarToggle
+  🟠 ORTA - xpath=//button[@id='navbarToggle']
+  🟡 ZAYIF - class=button.navbar-toggler.navbar-order
+  🟡 ZAYIF - tag=button
+
+================================================================================
+
+[7] BUTTON ELEMENTİ
+----------------------------------------
+Tag: button
+Text: Purchase
+
+Önemli Attribute'lar:
+  class: ['js-pay-promotion', 'btn', 'btn-primary', 'btn-block', 'mt-50']
+  type: button
+
+Locate'ler (Güçlüden Zayıfa):
+  🟠 ORTA - css=button.js-pay-promotion.btn.btn-primary.btn-block.mt-50
+  🟠 ORTA - xpath=//button[contains(@class, 'js-pay-promotion')][@type='button']
+  🟡 ZAYIF - class=button.js-pay-promotion.btn.btn-primary.btn-block.mt-50
+  🟡 ZAYIF - text=Purchase
+  🟡 ZAYIF - tag=button
+
+================================================================================
+
+[8] BUTTON ELEMENTİ
+----------------------------------------
+Tag: button
+Text: Menu
+
+Önemli Attribute'lar:
+  class: ['sidebar-toggler', 'btn-transparent', 'd-flex', 'flex-column-reverse', 'justify-content-center', 'align-items-center', 'p-5', 'rounded-sm', 'sidebarNavToggle']
+  type: button
+
+Locate'ler (Güçlüden Zayıfa):
+  🟠 ORTA - css=button.sidebar-toggler.btn-transparent.d-flex.flex-column-reverse.justify-content-center.align-items-center.p-5.rounded-sm.sidebarNavToggle
+  🟠 ORTA - xpath=//button[contains(@class, 'sidebar-toggler')][@type='button']
+  🟡 ZAYIF - class=button.sidebar-toggler.btn-transparent.d-flex.flex-column-reverse.justify-content-center.align-items-center.p-5.rounded-sm.sidebarNavToggle
+  🟡 ZAYIF - text=Menu
+  🟡 ZAYIF - tag=button
+
+================================================================================
+
+[9] BUTTON ELEMENTİ
+----------------------------------------
+Tag: button
+Text: Close
+
+Önemli Attribute'lar:
+  class: ['btn', 'btn-sm', 'btn-danger', 'ml-10', 'close-swl']
+  type: button
+
+Locate'ler (Güçlüden Zayıfa):
+  🟠 ORTA - css=button.btn.btn-sm.btn-danger.ml-10.close-swl
+  🟠 ORTA - xpath=//button[contains(@class, 'btn')][@type='button']
+  🟡 ZAYIF - class=button.btn.btn-sm.btn-danger.ml-10.close-swl
+  🟡 ZAYIF - text=Close
+  🟡 ZAYIF - tag=button
+
+================================================================================
+
+[10] BUTTON ELEMENTİ
+----------------------------------------
+Tag: button
+
+Önemli Attribute'lar:
+  id: navbarShopingCart
+  class: ['btn', 'btn-transparent', 'dropdown-toggle']
+  type: button
+
+Locate'ler (Güçlüden Zayıfa):
+  🔴 GÜÇLÜ - id=navbarShopingCart
+  🟠 ORTA - css=#navbarShopingCart
+  🟠 ORTA - xpath=//button[@id='navbarShopingCart']
+  🟡 ZAYIF - class=button.btn.btn-transparent.dropdown-toggle
+  🟡 ZAYIF - tag=button
+
+================================================================================
+
+[11] BUTTON ELEMENTİ
+----------------------------------------
+Tag: button
+Text: Purchase
+
+Önemli Attribute'lar:
+  class: ['js-pay-promotion', 'btn', 'btn-primary', 'btn-block', 'mt-50']
+  type: button
+
+Locate'ler (Güçlüden Zayıfa):
+  🟠 ORTA - css=button.js-pay-promotion.btn.btn-primary.btn-block.mt-50
+  🟠 ORTA - xpath=//button[contains(@class, 'js-pay-promotion')][@type='button']
+  🟡 ZAYIF - class=button.js-pay-promotion.btn.btn-primary.btn-block.mt-50
+  🟡 ZAYIF - text=Purchase
+  🟡 ZAYIF - tag=button
+
+================================================================================
+
+[12] BUTTON ELEMENTİ
+----------------------------------------
+Tag: button
+Text: OK
+
+Önemli Attribute'lar:
+  class: ['swal2-confirm', 'swal2-styled']
+  type: button
+  aria-label: 
+
+Locate'ler (Güçlüden Zayıfa):
+  🟠 ORTA - css=button.swal2-confirm.swal2-styled
+  🟠 ORTA - xpath=//button[contains(@class, 'swal2-confirm')][@type='button']
+  🟡 ZAYIF - class=button.swal2-confirm.swal2-styled
+  🟡 ZAYIF - text=OK
+  🟡 ZAYIF - tag=button
+
+================================================================================
+
+[13] BUTTON ELEMENTİ
+----------------------------------------
+Tag: button
+Text: Pay
+
+Önemli Attribute'lar:
+  class: ['btn', 'btn-sm', 'btn-primary', 'js-submit-promotion']
+  type: button
+
+Locate'ler (Güçlüden Zayıfa):
+  🟠 ORTA - css=button.btn.btn-sm.btn-primary.js-submit-promotion
+  🟠 ORTA - xpath=//button[contains(@class, 'btn')][@type='button']
+  🟡 ZAYIF - class=button.btn.btn-sm.btn-primary.js-submit-promotion
+  🟡 ZAYIF - text=Pay
+  🟡 ZAYIF - tag=button
+
+================================================================================
+
+[14] BUTTON ELEMENTİ
+----------------------------------------
+Tag: button
+Text: Purchase
+
+Önemli Attribute'lar:
+  class: ['js-pay-promotion', 'btn', 'btn-primary', 'btn-block', 'mt-50']
+  type: button
+
+Locate'ler (Güçlüden Zayıfa):
+  🟠 ORTA - css=button.js-pay-promotion.btn.btn-primary.btn-block.mt-50
+  🟠 ORTA - xpath=//button[contains(@class, 'js-pay-promotion')][@type='button']
+  🟡 ZAYIF - class=button.js-pay-promotion.btn.btn-primary.btn-block.mt-50
+  🟡 ZAYIF - text=Purchase
+  🟡 ZAYIF - tag=button
+
+================================================================================
+
+[15] BUTTON ELEMENTİ
+----------------------------------------
+Tag: button
+
+Önemli Attribute'lar:
+  class: ['btn-transparent', 'panel-sidebar-close', 'sidebarNavToggle']
+
+Locate'ler (Güçlüden Zayıfa):
+  🟠 ORTA - css=button.btn-transparent.panel-sidebar-close.sidebarNavToggle
+  🟠 ORTA - xpath=//button[contains(@class, 'btn-transparent')]
+  🟡 ZAYIF - class=button.btn-transparent.panel-sidebar-close.sidebarNavToggle
+  🟡 ZAYIF - tag=button
+
+================================================================================
+
+[16] BUTTON ELEMENTİ
+----------------------------------------
+Tag: button
+
+Önemli Attribute'lar:
+  id: navbarClose
+  class: ['btn-transparent']
+
+Locate'ler (Güçlüden Zayıfa):
+  🔴 GÜÇLÜ - id=navbarClose
+  🟠 ORTA - css=#navbarClose
+  🟠 ORTA - xpath=//button[@id='navbarClose']
+  🟡 ZAYIF - class=button.btn-transparent
+  🟡 ZAYIF - tag=button
+
+================================================================================
+

@@ -1,0 +1,41 @@
+NEDEN JAVASCRIPT YÖNTEMİ ÇALIŞTI? (Teknik ve Basit Açıklama)
+
+Hocam, yaşadığınız durum test otomasyonunda çok sık karşılaşılan "Element var ama tıklanamıyor" veya "Tıklıyorum ama sistem algılamıyor" sorunudur.
+
+1. ESKİ YÖNTEM NEDEN ÇALIŞMADI? (Selenium Click)
+Selenium, gerçek bir kullanıcıyı taklit etmeye çalışır. Yani:
+- Mouse'u elementin üzerine götürür.
+- Koordinatları hesaplar.
+- Fiziksel bir "tık" sinyali gönderir.
+
+Ancak sizin sayfanızda (SweetAlert Modal yapısında) muhtemelen şu durumlar vardı:
+- Görünmez Duvar (Overlay): Modal açıldığında bazen sayfanın üzerine şeffaf bir katman (div) gelir. Selenium tıkladığında butona değil, bu şeffaf katmana tıklıyordu.
+- Koordinat Kayması: Sayfa aşağı kaydırıldığında (scroll) veya modal "fixed" pozisyonda olduğunda, Selenium elementin yerini yanlış hesaplayıp boşluğa tıklıyor olabilir.
+- Olay Tetiklenmemesi: Bazen dropdown'a tıklasanız bile, site arkada çalışan JavaScript kodlarıyla "Seçim yapıldı" bilgisini almaz.
+
+2. YENİ YÖNTEM NE YAPTI? (JavaScript Injection)
+Biz Selenium'un "fiziksel taklit" yapma zorunluluğunu devre dışı bıraktık ve doğrudan tarayıcının beynine (JavaScript motoruna) emir verdik.
+
+Yaptığımız işlem şuydu:
+driver.execute_script("arguments[0].value = '3662'; arguments[0].dispatchEvent(new Event('change'));", select_element)
+
+Bunu iki adımda açıklayalım:
+
+Adım A: "arguments[0].value = '3662';"
+- Tarayıcıya dedik ki: "Görselliği, tıklamayı, açılır listeyi boşver. Bu kutunun değeri artık '3662'dir."
+- Bu işlem, HTML kodunu canlı canlı değiştirmek gibidir. Kullanıcının mouse ile seçmesine gerek kalmadan değeri zorla atadık.
+
+Adım B: "arguments[0].dispatchEvent(new Event('change'));"
+- Sadece değeri değiştirmek yetmez. Site, birinin seçim yaptığını anlamayabilir.
+- Bu kod ile siteye şu mesajı bağırdık: "HEY! BU KUTUNUN DEĞERİ DEĞİŞTİ, HABERİN OLSUN!"
+- Böylece site "Aaa, kullanıcı kurs seçti, o zaman 'Satın Al' butonunu aktif edeyim veya fiyatı güncelleyeyim" dedi.
+
+ÖZET (Analoji):
+Eski yöntem (Selenium Click): Kapının kolunu bulup, elimizle aşağı indirip kapıyı itmeye çalışmak. (Ama bazen kapı kolu sıkışır, elimiz kayar veya önünde cam vardır).
+
+Yeni yöntem (JavaScript): Işınlanarak doğrudan içeri girmek. Kapı koluyla hiç uğraşmadık, sadece "Ben içerideyim" dedik.
+
+Bu yöntem "Hile" gibi görünse de, UI (Arayüz) testlerinde elementler sorun çıkardığında en güvenilir ve en hızlı "Arka Kapı" (Backdoor) yöntemidir.
+
+Saygılar,
+Yapay Zeka Asistanınız.
